@@ -90,16 +90,74 @@ padding:20px 0 0 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 
 }
 h4{
     font-size: 24px;
 }
-.iconbox{
-background-color:#E0F3E0 ;
-font-size:24px ;
-font-family:'Maven Pro', sans-serif;
+#hr-1{
+    width:5%;
+    text-align: center;
+    color: rgb(173, 168, 168);
+}
+.sec-1{
+    text-align: center;
+    color: rgb(173, 168, 168);;
+    font-family:'Maven Pro', sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.iconbox p{
+    text-align: center;
 }
 .boxbtn{
+    color: #ffff;
+    font-size: 25px;
+    font-family:'Maven Pro', sans-serif;
+    border-radius: 40px;
+    background-color: #53D153;
+    border-style: none;
+    padding: 16px 30px;
+    text-align: center;
+   
 
+}
+#content2{
+    background-color: #53D153 ;
+}
+#hr-2{
+    width:5%;
+    text-align: center;
+    color: #207b20;
+}
+.sec-2{
+    color: #207b20;
+    font-family:'Maven Pro', sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+   
+   
+}
+.grid-item{
+    padding: 10px;
+    text-align: center;
+    
+}
+#btn-sec2{
+    color: #ffff;
+    font-size: 22px;
+    font-family:'Maven Pro', sans-serif;
+    border-radius: 20px;
+    background-color: #2B9B2B;
+    border-style: none;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+    left: 45%;
 }
